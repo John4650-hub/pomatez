@@ -1,7 +1,7 @@
 name: Build Tauri
 
 on:
-  push:
+  pull_request:
     branches:
       - master
     paths-ignore:
